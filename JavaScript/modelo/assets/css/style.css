@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --primary-color: rgb(10, 85, 146);
+    --primary-color-darker: rgb(3, 45, 78);
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary-color);
+    font-family: 'Roboto';
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.container {
+    max-width: 640px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+ input, label, button {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+ input{
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+    width: 100%;
+}
+
+ input:focus {
+    outline: 1px solid var(--primary-color);
+} 
+
+ button {
+    border: none;
+    background-color: var(--primary-color);
+    color: #fff;
+    font-family: 'Roboto';
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+ button:hover {
+    background: var(--primary-color-darker);
+}
+
+
+.TabelaIMC {
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+}
+
+.tituloIMC {
+    display: flex;
+    flex-direction: row;
+    gap: 310px;
+}
+
+.paragrafo-resultado, .bad {
+    background: #08c37b;
+    padding: 10px 20px;
+}
+
+.bad {
+    background: rgb(212, 3, 3);
+}
