@@ -32,3 +32,7 @@ const numero2 = parseInt('5') // converte para inteiro
 const numero3 = parseFloat('5.5') // converte para decimal
 const numero4 = Number('5.5') // converte os dois tipos
 console.log(numero1 + numero2)
+
+let a = 5;
+++a; // Incrementa 1, agora a = 6
+console.log(a); // 6
